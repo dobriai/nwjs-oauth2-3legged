@@ -1,0 +1,29 @@
+{
+  "name": "nwjs-oauth2-3legged",
+  "version": "1.0.0",
+  "description": "Demos/tests on doing 3-legged OAuth2 without a server",
+  "main": "index.html",
+  "scripts": {
+    "start": "nw ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dobriai/nwjs-oauth2-3legged.git"
+  },
+  "keywords": [
+    "nw.js",
+    "electron",
+    "oauth3",
+    "3-legged",
+    "desktop"
+  ],
+  "author": "I.D.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dobriai/nwjs-oauth2-3legged/issues"
+  },
+  "homepage": "https://github.com/dobriai/nwjs-oauth2-3legged#readme",
+  "dependencies": {
+    "nw": "^0.30.0"
+  }
+}
