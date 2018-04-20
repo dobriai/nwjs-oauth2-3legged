@@ -31,7 +31,7 @@ chrome.webRequest.onBeforeRequest.addListener(details => {
   const accessToken = details.url.match(/code=([^&]+)/)[1];
 
   iframe.style.display = 'none';
-  const tN = document.createTextNode('Access token is:' + accessToken);
+  const tN = document.createTextNode('Access token is: ' + accessToken);
   document.body.appendChild(tN);
 
   return { cancel: true };
